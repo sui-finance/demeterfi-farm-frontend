@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total EGG burned since launch"
+        "text": "Total DMTR burned since launch"
       }
     },
     {
@@ -116,6 +116,18 @@
     },
     {
       "data": {
+        "stringId": 317,
+        "text": "Staked"
+      }
+    },
+    {
+      "data": {
+        "stringId": 124124124,
+        "text": "Total Value Locked (TVL)"
+      }
+    },
+    {
+      "data": {
         "stringId": 318,
         "text": "Earn"
       }
@@ -123,13 +135,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn EGG"
+        "text": "Demeter Farms"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake Egg, get SYRUP."
+        "text": "Stake DMTR, get DMTR."
       }
     },
     {
@@ -141,7 +153,7 @@
     {
       "data": {
         "stringId": 330,
-        "text": "%asset% Earned"
+        "text": "Earned"
       }
     },
     {
@@ -153,7 +165,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake EGG tokens, the contract will automatically harvest EGG rewards for you!"
+        "text": "Every time you stake and unstake DMTR tokens, the contract will automatically harvest DMTR rewards for you!"
       }
     },
     {
@@ -219,7 +231,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "Egg price"
+        "text": "DMTR price"
       }
     },
     {
@@ -243,7 +255,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 EGG = 1 SYRUP"
+        "text": "1 DMTR = 1 SYRUP"
       }
     },
     {
@@ -291,7 +303,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of EGG block emissions each day (10 EGG per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of DMTR block emissions each day (10 DMTR per block), Rewards are distributed each block."
       }
     },
     {
@@ -351,13 +363,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% EGG"
+        "text": "%num% DMTR"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend EGG to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend DMTR to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -435,19 +447,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% EGG Available"
+        "text": "%num% DMTR Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 EGG"
+        "text": "Your amount must be a multiple of 10 DMTR"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 EGG"
+        "text": "1 Ticket = 10 DMTR"
       }
     },
     {
@@ -495,7 +507,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your EGG cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your DMTR cannot be returned to you after buying tickets."
       }
     },
     {
@@ -507,7 +519,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "EGG prizes to be claimed"
+        "text": "DMTR prizes to be claimed"
       }
     },
     {
@@ -543,13 +555,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve EGG"
+        "text": "Approve DMTR"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of EGG block emissions each day (10 EGG per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of DMTR block emissions each day (10 DMTR per block), Rewards are distributed each block."
       }
     },
     {
@@ -567,19 +579,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using EGG-BNB LP tokens, which means you need to stake equal amounts of EGG and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using DMTR-BNB LP tokens, which means you need to stake equal amounts of DMTR and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get EGG-BNB LP >"
+        "text": "Get DMTR-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, Goose Finance burns the EGG."
+        "text": "The project gets the BNB, Demeter Finance burns the DMTR."
       }
     },
     {
@@ -597,7 +609,7 @@
     {
       "data": {
         "stringId": 514,
-        "text": "Launch your project with Goose Finance, Binance Smart Chain\u2019s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC."
+        "text": "Launch your project with Demeter Finance, Binance Smart Chain\u2019s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC."
       }
     },
     {
@@ -645,7 +657,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Egg Stats"
+        "text": "Demeter Finance Stats"
       }
     },
     {
@@ -663,7 +675,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New EGG\/block"
+        "text": "New DMTR\/block"
       }
     },
     {
@@ -675,19 +687,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "EGG to Harvest"
+        "text": "DMTR to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "EGG in Wallet"
+        "text": "DMTR in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting EGG"
+        "text": "Collecting DMTR"
       }
     },
     {
@@ -699,7 +711,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "EGG to Collect"
+        "text": "DMTR to Collect"
       }
     },
     {
@@ -753,19 +765,19 @@
     {
       "data": {
         "stringId": 576,
-        "text": "Goose Finance"
+        "text": "Demeter Finance"
       }
     },
     {
       "data": {
         "stringId": 578,
-        "text": "Top 3 best DEFI app on Binance Smart Chain."
+        "text": "Always Bringing You Fertile Lands and Abundant Yields"
       }
     },
     {
       "data": {
         "stringId": 580,
-        "text": "Stake EGG to earn new tokens."
+        "text": "Stake DMTR to earn new tokens."
       }
     },
     {
@@ -783,7 +795,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "EGG to burn (USD)"
+        "text": "DMTR to burn (USD)"
       }
     },
     {
@@ -795,7 +807,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest EGG rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest DMTR rewards for you!"
       }
     },
     {
@@ -813,13 +825,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy EGG and BNB tokens"
+        "text": "Buy DMTR and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get EGG-BNB LP tokens by adding EGG and BNB liquidity"
+        "text": "Get DMTR-BNB LP tokens by adding DMTR and BNB liquidity"
       }
     },
     {
@@ -831,7 +843,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your EGG-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your DMTR-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -867,7 +879,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for EGG, or keep for your collection!"
+        "text": "Trade in for DMTR, or keep for your collection!"
       }
     },
     {
@@ -909,7 +921,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive EGG, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive DMTR, you will lose access to it forever!"
       }
     },
     {
@@ -939,7 +951,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a EGG value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a DMTR value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -981,7 +993,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for EGG"
+        "text": "Trade in for DMTR"
       }
     },
     {
@@ -1107,7 +1119,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn EGG"
+        "text": "Demeter Farms"
       }
     },
     {
@@ -1149,13 +1161,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The EGG Lottery"
+        "text": "The DMTR Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with EGG"
+        "text": "Buy tickets with DMTR"
       }
     },
     {
@@ -1209,7 +1221,25 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback EGG"
+        "text": "Stake LP tokens to earn DMTR. Deposit fees will be used to support deflationary measures."
+      }
+    },
+    {
+      "data": {
+        "stringId": 10000001,
+        "text": "Stake tokens listed here to earn additional DMTR on top of farms! Deposit fees will be used to support deflationary measures."
+      }
+    },
+    {
+      "data": {
+        "stringId": 10000011,
+        "text": "Across all Farms and Pools"
+      }
+    },
+    {
+      "data": {
+        "stringId": 10000013,
+        "text": "Approve Contract"
       }
     },
     {
@@ -1221,7 +1251,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn EGG"
+        "text": "Demeter Silos"
       }
     },
     {

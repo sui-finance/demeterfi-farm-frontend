@@ -33,7 +33,7 @@ export const allLanguages = [
   // AR,
   // CA,
   ZHCN,
-  ZHTW,
+  // ZHTW,
   // CS,
   // DA,
   // DE,

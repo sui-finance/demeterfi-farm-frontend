@@ -9,13 +9,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn format",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
+    "testdep": "firebase deploy --only hosting:demeter-finance --project demeter-finance"
   },
   "browserslist": {
     "production": [
@@ -33,7 +28,7 @@
     "@binance-chain/bsc-use-wallet": "^0.8.1",
     "@crowdin/crowdin-api-client": "^1.10.1",
     "@ethersproject/abi": "^5.0.7",
-    "@pancakeswap-libs/uikit": "goosedefi/goose-uikit",
+    "@pancakeswap-libs/uikit": "crypto-peter-dev/demeterfi-uikit#0d4b119d8e6c",
     "@reduxjs/toolkit": "^1.5.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
@@ -45,6 +40,7 @@
     "lodash": "^4.17.20",
     "react": "^17.0.1",
     "react-chartjs-2": "^2.11.1",
+    "react-countdown": "^2.3.1",
     "react-countup": "^4.3.3",
     "react-dom": "^17.0.1",
     "react-feather": "^2.0.8",

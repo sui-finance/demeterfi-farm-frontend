@@ -11,9 +11,23 @@ const GlobalStyle = createGlobalStyle`
   * {
     font-family: 'Kanit', sans-serif;
   }
+  html {
+
+  }
   body {
     background-color: ${({ theme }) => theme.colors.background};
 
+    &:before{
+      content: "";
+      background-color: ${({ theme }) => theme.colors.background};
+      background-image: url('/images/egg/dmtrbg.png');
+      background-size: cover;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
     img {
       height: auto;
       max-width: 100%;

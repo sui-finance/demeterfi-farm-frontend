@@ -12,11 +12,13 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.goosedefi.com/',
+        href: 'https://exchange.demeterfi.com/#/swap?inputCurrency=BNB&outputCurrency=0x82378845b58f0a1406C34Ecf754b75A36C2fE1Bb',
+        newTab: true,
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.goosedefi.com/#/pool',
+        href: 'https://exchange.demeterfi.com/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x82378845b58f0a1406C34Ecf754b75A36C2fE1Bb',
+        newTab: true,
       },
     ],
   },
@@ -26,9 +28,9 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Nests',
+    label: 'Silos',
     icon: 'PoolIcon',
-    href: '/nests',
+    href: '/silos',
   },
   // {
   //   label: 'Pools',
@@ -45,60 +47,138 @@ const config: MenuEntry[] = [
   //   icon: 'NftIcon',
   //   href: '/nft',
   // },
-  {
-    label: 'Info',
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
-      },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
-      },
-      {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
-      },
-    ],
-  },
+  // {
+  //   label: 'Info',
+  //   icon: 'InfoIcon',
+  //   items: [
+  //     {
+  //       label: 'PancakeSwap',
+  //       href: 'https://pancakeswap.info/token/0x8e8538c75f273ab2df6adeecd3622a9c314fccf3',
+  //     },
+  //     {
+  //       label: 'CoinGecko',
+  //       href: 'https://www.coingecko.com/en/coins/demeter-finance',
+  //     },
+  //   ],
+  // },
+  // {
+  //   label: 'Listing',
+  //   icon: 'LayerIcon',
+  //   items: [
+  //     {
+  //       label: 'PancakeSwap',
+  //       href: 'https://demeterfi-swap.firebaseapp.com/#/swap?inputCurrency=BNB&outputCurrency=0x82378845b58f0a1406C34Ecf754b75A36C2fE1Bb',
+  //       newTab: true,
+  //     },
+  //     // {
+  //     //   label: 'Resfinex',
+  //     //   href: 'https://trade.resfinex.com/trade/DMTR_USDT',
+  //     //   newTab: true,
+  //     // },
+  //     // {
+  //     //   label: 'CoinGecko',
+  //     //   href: 'https://www.coingecko.com/en/coins/demeter-finance',
+  //     //   newTab: true,
+  //     // },
+  //     // {
+  //     //   label: 'Coinpaprika',
+  //     //   href: 'https://coinpaprika.com/coin/sishi-sishi-token/',
+  //     //   newTab: true,
+  //     // },
+  //   ],
+  // },
+  // {
+  //   label: 'Audit',
+  //   icon: 'AuditIcon',
+  //   href:'https://docs.demeterfi.com/security/audit',
+  //   newTab: true,
+  // },
+  // {
+  //   label: 'Governance',
+  //   icon: 'GroupsIcon',
+  //   href:'https://snapshot.org/#/sishi.eth',
+  //   newTab: true,
+  // },
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/goosedefi/',
+        href: 'https://github.com/demeter-finance/',
+        newTab: true,
       },
       {
         label: 'Docs',
-        href: 'https://goosedefi.gitbook.io/goose-finance/',
+        href: 'https://docs.demeterfi.com',
+        newTab: true,
       },
       {
-        label: 'Blog',
-        href: 'https://goosefinance.medium.com/',
+        label: 'Medium',
+        href: 'https://medium.com/@DemeterFi',
+        newTab: true,
+      },
+      // {
+      //   label: 'Publish0x',
+      //   href: 'https://www.publish0x.com/demeter-finance',
+      //   newTab: true,
+      // },
+    ],
+  },
+]
+
+export const configCNLang: MenuEntry[] = [
+  {
+    label: '主页',
+    icon: 'HomeIcon',
+    href: '/',
+  },
+  {
+    label: '交易',
+    icon: 'TradeIcon',
+    items: [
+      {
+        label: '币币交易',
+        href: 'https://demeterfi-swap.firebaseapp.com/#/swap?inputCurrency=BNB&outputCurrency=0x82378845b58f0a1406C34Ecf754b75A36C2fE1Bb',
+        newTab: true,
+      },
+      {
+        label: '流动性池',
+        href: 'https://demeterfi-swap.firebaseapp.com/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x82378845b58f0a1406C34Ecf754b75A36C2fE1Bb',
+        newTab: true,
       },
     ],
   },
   {
-    label: 'Partnerships/IFO',
-    icon: 'GooseIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
+    label: '农场',
+    icon: 'FarmIcon',
+    href: '/farms',
   },
   {
-    label: 'Audit by Hacken',
-    icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+    label: '筒仓',
+    icon: 'PoolIcon',
+    href: '/nests',
   },
   {
-    label: 'Audit by CertiK',
-    icon: 'AuditIcon',
-    href: 'https://certik.org/projects/goose-finance',
+    label: '更多',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: 'Github',
+        href: 'https://github.com/demeter-finance/',
+        newTab: true,
+      },
+      {
+        label: '文档',
+        href: 'https://docs.demeterfi.com',
+        newTab: true,
+      },
+      {
+        label: 'Medium',
+        href: 'https://medium.com/@DemeterFi',
+        newTab: true,
+      },
+    ],
   },
 ]
 

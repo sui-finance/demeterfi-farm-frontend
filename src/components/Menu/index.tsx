@@ -5,14 +5,17 @@ import { LanguageContext } from 'contexts/Localisation/languageContext'
 import useTheme from 'hooks/useTheme'
 import { usePriceCakeBusd } from 'state/hooks'
 import { Menu as UikitMenu } from '@pancakeswap-libs/uikit'
-import config from './config'
+import config, {configCNLang} from './config'
 
 const Menu = (props) => {
   const { account, connect, reset } = useWallet()
   const { selectedLanguage, setSelectedLanguage } = useContext(LanguageContext)
   const { isDark, toggleTheme } = useTheme()
   const cakePriceUsd = usePriceCakeBusd()
-
+  console.log({ selectedLanguage })
+  const linksConfig = selectedLanguage.code === 'zh-CN' 
+    ? configCNLang 
+    : config
   return (
     <UikitMenu
       account={account}
@@ -24,8 +27,8 @@ const Menu = (props) => {
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd.toNumber()}
-      links={config}
-      priceLink="https://www.coingecko.com/en/coins/goose-finance"
+      links={linksConfig}
+      priceLink="https://www.coingecko.com/en/coins/demeter-finance"
       {...props}
     />
   )
