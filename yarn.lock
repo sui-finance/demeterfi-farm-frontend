@@ -1828,7 +1828,7 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@crypto-peter-dev/demeterfi-uikit#0d4b119d8e6c":
+"@pancakeswap-libs/uikit@crypto-peter-dev/demeterfi-uikit#0d4b119d8e6":
   version "0.10.2"
   resolved "https://codeload.github.com/crypto-peter-dev/demeterfi-uikit/tar.gz/0d4b119d8e6ce9745d3bfa9e60e7e7fdd2b407dc"
   dependencies:

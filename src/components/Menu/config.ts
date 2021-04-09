@@ -139,12 +139,12 @@ export const configCNLang: MenuEntry[] = [
     items: [
       {
         label: '币币交易',
-        href: 'https://demeterfi-swap.firebaseapp.com/#/swap?inputCurrency=BNB&outputCurrency=0x82378845b58f0a1406C34Ecf754b75A36C2fE1Bb',
+        href: 'https://exchange.demeterfi.com/#/swap?inputCurrency=BNB&outputCurrency=0x82378845b58f0a1406C34Ecf754b75A36C2fE1Bb',
         newTab: true,
       },
       {
         label: '流动性池',
-        href: 'https://demeterfi-swap.firebaseapp.com/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x82378845b58f0a1406C34Ecf754b75A36C2fE1Bb',
+        href: 'https://exchange.demeterfi.com/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x82378845b58f0a1406C34Ecf754b75A36C2fE1Bb',
         newTab: true,
       },
     ],
@@ -157,7 +157,7 @@ export const configCNLang: MenuEntry[] = [
   {
     label: '筒仓',
     icon: 'PoolIcon',
-    href: '/nests',
+    href: '/silos',
   },
   {
     label: '更多',
