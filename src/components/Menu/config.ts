@@ -105,7 +105,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/demeter-finance/',
+        href: 'https://github.com/demeterfi/',
         newTab: true,
       },
       {
@@ -165,7 +165,7 @@ export const configCNLang: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/demeter-finance/',
+        href: 'https://github.com/demeterfi/',
         newTab: true,
       },
       {
