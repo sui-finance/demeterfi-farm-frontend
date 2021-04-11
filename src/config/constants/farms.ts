@@ -2,7 +2,22 @@ import contracts from './contracts'
 import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
- 
+  {
+    pid: 0,
+    risk: 5,
+    lpSymbol: 'DMTR-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x08d54C7C7E3761F25fd8194DfD2B95A585698DF7',
+    },
+    tokenSymbol: 'DMTR',
+    tokenAddresses: {
+      97: '',
+      56: '0x82378845b58f0a1406c34ecf754b75a36c2fe1bb',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
   {
     pid: 0,
     risk: 5,
